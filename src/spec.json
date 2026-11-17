@@ -1,0 +1,211 @@
+{
+  "title": "Registro presenze e attività",
+  "description": "Prototipo navigabile per registrare gli ingressi, le uscite e le attività svolte in un laboratorio didattico. Dati e organizzazioni di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo delle presenze e delle attività del laboratorio.",
+      "metrics": [
+        {
+          "label": "Presenze oggi",
+          "value": "12"
+        },
+        {
+          "label": "Ingressi registrati",
+          "value": "12"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "8"
+        },
+        {
+          "label": "Attività in corso",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nubi",
+          "12/06/2025",
+          "09:05",
+          "12:10",
+          "Esperimenti di luce",
+          "Uscita registrata"
+        ],
+        [
+          "Lumo",
+          "12/06/2025",
+          "09:12",
+          "—",
+          "Costruzione di modelli",
+          "Presente"
+        ],
+        [
+          "Vela",
+          "12/06/2025",
+          "09:20",
+          "12:35",
+          "Disegno e forme",
+          "Uscita registrata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra gli accessi al laboratorio; usa il modulo per registrare una presenza.",
+      "metrics": [
+        {
+          "label": "Registrazioni",
+          "value": "24"
+        },
+        {
+          "label": "Presenze oggi",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nubi",
+          "12/06/2025",
+          "09:05",
+          "12:10",
+          "Esperimenti di luce",
+          "Uscita registrata"
+        ],
+        [
+          "Lumo",
+          "12/06/2025",
+          "09:12",
+          "—",
+          "Costruzione di modelli",
+          "Presente"
+        ],
+        [
+          "Vela",
+          "12/06/2025",
+          "09:20",
+          "12:35",
+          "Disegno e forme",
+          "Uscita registrata"
+        ],
+        [
+          "Timo",
+          "12/06/2025",
+          "09:28",
+          "—",
+          "Osservazione di semi",
+          "Presente"
+        ],
+        [
+          "Sora",
+          "11/06/2025",
+          "14:02",
+          "16:15",
+          "Esperimenti di luce",
+          "Uscita registrata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ]
+    },
+    {
+      "id": "attivita",
+      "title": "Attività del laboratorio",
+      "description": "Rivedi le attività svolte e registra una nuova attività collegata a una presenza.",
+      "metrics": [
+        {
+          "label": "Attività registrate",
+          "value": "18"
+        },
+        {
+          "label": "Attività oggi",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nubi",
+          "12/06/2025",
+          "09:05",
+          "12:10",
+          "Esperimenti di luce",
+          "Completata"
+        ],
+        [
+          "Lumo",
+          "12/06/2025",
+          "09:12",
+          "—",
+          "Costruzione di modelli",
+          "In corso"
+        ],
+        [
+          "Vela",
+          "12/06/2025",
+          "09:20",
+          "12:35",
+          "Disegno e forme",
+          "Completata"
+        ],
+        [
+          "Timo",
+          "12/06/2025",
+          "09:28",
+          "—",
+          "Osservazione di semi",
+          "In corso"
+        ],
+        [
+          "Sora",
+          "11/06/2025",
+          "14:02",
+          "16:15",
+          "Esperimenti di luce",
+          "Completata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ]
+    }
+  ]
+}
